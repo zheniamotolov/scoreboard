@@ -12,7 +12,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ScoreBoardTest {
+class FootballScoreBoardTest {
 
     private ScoreBoard scoreBoard;
     private Team homeTeam;
@@ -20,7 +20,7 @@ class ScoreBoardTest {
 
     @BeforeEach
     void setUp() {
-        scoreBoard = new ScoreBoard();
+        scoreBoard = new FootballScoreBoard();
         homeTeam = new Team("Home Team");
         awayTeam = new Team("Away Team");
     }
